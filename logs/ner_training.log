@@ -29,3 +29,8 @@
 2025-06-28 20:26:41 [INFO] Converting token-label pairs to HuggingFace Dataset.
 2025-06-28 20:26:43 [INFO] Training on device: cpu
 2025-06-28 21:24:22 [INFO] \u2705 Finished training roberta-base. Model saved to ./output\roberta-base_model
+2025-06-29 13:30:25 [INFO] Loaded 1204 annotated records.
+2025-06-29 13:30:27 [INFO] Prepared 1204 samples with token-level labels.
+2025-06-29 13:30:29 [INFO] Converting token-label pairs to HuggingFace Dataset.
+2025-06-29 13:30:31 [INFO] Training on device: cpu
+2025-06-29 14:29:30 [INFO] \u2705 Finished training roberta-base. Model saved to ./output\roberta-base_model

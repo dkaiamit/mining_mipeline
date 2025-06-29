@@ -93,7 +93,9 @@ GEMINI_API_KEY=your_gemini_api_key_here
 python train_ner.py roberta-base
 ```
 2. Run the NER inference:
-```python run_inference.py
+
+```
+python run_inference.py
 ```
 3. Run geolocation inference:
 ```
@@ -113,3 +115,4 @@ python src/ner/geolocation_infer.py
 - Due to the free-tier limitations of Gemini, geolocation inference results may be incomplete. In practice, this component can be swapped with more robust services or expanded heuristic databases.
 - The NER model can be further improved with additional domain-specific training data.
 - Containerization using Docker is planned to make the pipeline reproducible across systems.
+- We can also use Airflow to schedule the entire process. Airflow can help manage dependencies between tasks and provide better monitoring and orchestration of the pipeline. 
