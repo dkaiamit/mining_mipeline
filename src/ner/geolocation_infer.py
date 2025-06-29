@@ -20,9 +20,9 @@ class GeolocationInfer:
         if self.llm_enabled and self.api_key:
             genai.configure(api_key=self.api_key)
             self.model = genai.GenerativeModel(self.model_name)
-            logger.info(f"✅ Gemini client initialized with model: {self.model_name}")
+            logger.info(f"Gemini client initialized with model: {self.model_name}")
         elif self.llm_enabled:
-            logger.warning("⚠️ LLM enabled but GEMINI_API_KEY not set — skipping LLM fallback.")
+            logger.warning("LLM enabled but GEMINI_API_KEY not set — skipping LLM fallback.")
 
         self.project_lookup = {
             "Minyari Dome Project": [-22.867, 120.712],
