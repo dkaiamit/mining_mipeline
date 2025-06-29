@@ -112,6 +112,7 @@ python src/ner/geolocation_infer.py
 
 ## Notes and Future Work
 
+- Use Python 3.13.x for entire project.
 - Due to the free-tier limitations of Gemini, geolocation inference results may be incomplete. In practice, this component can be swapped with more robust services or expanded heuristic databases.
 - The NER model can be further improved with additional domain-specific training data.
 - Containerization using Docker is planned to make the pipeline reproducible across systems.
