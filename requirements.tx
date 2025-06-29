@@ -1,0 +1,11 @@
+transformers
+datasets
+nltk
+torch
+scikit-learn
+tokenizers
+pandas
+tqdm
+PyMuPDF
+loguru
+datasets

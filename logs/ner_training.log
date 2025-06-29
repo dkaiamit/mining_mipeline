@@ -1,0 +1,31 @@
+2025-06-25 16:57:40 [INFO] Loaded 1204 annotated records.
+2025-06-25 17:03:25 [INFO] Loaded 1204 annotated records.
+2025-06-25 17:03:29 [INFO] Prepared 1204 samples with token-level labels.
+2025-06-25 17:03:35 [WARNING] Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+2025-06-25 17:03:50 [INFO] Converting token-label pairs to HuggingFace Dataset.
+2025-06-25 17:11:08 [INFO] Loaded 1204 annotated records.
+2025-06-25 17:11:10 [INFO] Prepared 1204 samples with token-level labels.
+2025-06-25 17:11:13 [INFO] Converting token-label pairs to HuggingFace Dataset.
+2025-06-25 17:13:10 [INFO] Loaded 1204 annotated records.
+2025-06-25 17:13:13 [INFO] Prepared 1204 samples with token-level labels.
+2025-06-25 17:13:15 [INFO] Converting token-label pairs to HuggingFace Dataset.
+2025-06-25 17:15:08 [INFO] Loaded 1204 annotated records.
+2025-06-25 17:15:11 [INFO] Prepared 1204 samples with token-level labels.
+2025-06-25 17:15:13 [INFO] Converting token-label pairs to HuggingFace Dataset.
+2025-06-25 17:20:20 [INFO] Loaded 1204 annotated records.
+2025-06-25 17:20:22 [INFO] Prepared 1204 samples with token-level labels.
+2025-06-25 17:20:25 [INFO] Converting token-label pairs to HuggingFace Dataset.
+2025-06-25 17:27:37 [INFO] Loaded 1204 annotated records.
+2025-06-25 17:27:40 [INFO] Prepared 1204 samples with token-level labels.
+2025-06-25 17:27:42 [INFO] Converting token-label pairs to HuggingFace Dataset.
+2025-06-25 17:27:45 [INFO] Starting NER model training...
+2025-06-25 18:21:22 [INFO] NER model training complete and saved.
+2025-06-28 20:21:36 [INFO] Loaded 1204 annotated records.
+2025-06-28 20:21:38 [INFO] Prepared 1204 samples with token-level labels.
+2025-06-28 20:21:45 [WARNING] Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+2025-06-28 20:24:17 [INFO] Converting token-label pairs to HuggingFace Dataset.
+2025-06-28 20:26:37 [INFO] Loaded 1204 annotated records.
+2025-06-28 20:26:39 [INFO] Prepared 1204 samples with token-level labels.
+2025-06-28 20:26:41 [INFO] Converting token-label pairs to HuggingFace Dataset.
+2025-06-28 20:26:43 [INFO] Training on device: cpu
+2025-06-28 21:24:22 [INFO] \u2705 Finished training roberta-base. Model saved to ./output\roberta-base_model
