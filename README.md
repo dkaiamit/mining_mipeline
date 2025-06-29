@@ -37,7 +37,7 @@ Due to API limitations in free-tier LLM accounts, the fallback inference may ret
 ## Project Structure
 
 
-'''
+```
 mining_project_pipeline/
 │
 ├── data/
@@ -63,43 +63,42 @@ mining_project_pipeline/
 ├── run_inference.py
 ├── requirements.txt
 └── README.md
-'''
+```
 
 ## Setup Instructions
 
 1. Create a Python virtual environment:
-'''
+```
 python -m venv venv
 source venv/bin/activate # Linux/macOS
 venv\Scripts\activate # Windows
-'''
+```
 
 2. Install dependencies:
-'''
+```
 pip install -r requirements.txt
-'''
+```
 
 3. Set up your Gemini API key:
 
 - Create a `.env` file in the project root with:
-'''
+```
 GEMINI_API_KEY=your_gemini_api_key_here
-'''
+```
 
 ## How to Run
 
 1. Train the NER model:
-'''
+```
 python train_ner.py roberta-base
-'''
+```
 2. Run the NER inference:
-'''
-python run_inference.py
-'''
+```python run_inference.py
+```
 3. Run geolocation inference:
-'''
+```
 python src/ner/geolocation_infer.py
-'''
+```
 ## Libraries Used
 
 - transformers
