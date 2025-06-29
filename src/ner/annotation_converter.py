@@ -2,6 +2,8 @@
 import json
 import logging
 from typing import List, Dict, Tuple
+import nltk
+nltk.download('punkt_tab')
 
 logger = logging.getLogger(__name__)
 

@@ -57,4 +57,4 @@ class NERModel:
 
         trainer.train()
         trainer.save_model(output_dir)
-        logger.info(f"✅ Finished training {self.model_name}. Model saved to {output_dir}")
+        logger.info(f"Finished training {self.model_name}. Model saved to {output_dir}")
